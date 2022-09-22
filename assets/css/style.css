@@ -1,12 +1,15 @@
-body{
-
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 header{
     height: 60px;
     width: 100%;
     line-height: 60px;
-    background-color: blue;
+    background-color: rgb(174, 75, 255);
+    border-bottom: 10px solid rgb(100, 73, 221);
+    padding: 0;
+    margin: 0;
 }
 
 a {
@@ -20,10 +23,39 @@ li {
     text-decoration: none;
 }
 
+.box-center{
+    display: flex;
+    align-items: right;
+    display: inline;
+}
+
+img{
+    width: 500px;
+    
+}
+
+.center{
+    width: 30%;
+    margin: auto;
+    display: block;
+}
+
+#contact{
+    background-color: rgb(174, 75, 255);
+}
+
 .text-center{
     text-align: center;
 }
 
 .text-right{
     text-align: right;
+}
+
+.footer{
+    text-align: center;
+    background-color: rgb(100, 73, 221);
+    border-bottom: 10px solid rgb(85, 221, 73);
+    padding: 0;
+    margin: 0;
 }
